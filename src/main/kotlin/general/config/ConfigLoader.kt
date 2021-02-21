@@ -21,7 +21,6 @@ object ConfigLoader {
     }
 
     fun findConfigValue(path: String): String {
-        return findNodeValue(jsonNodeConfig, path.split("."))
-                ?: throw InternalServerErrorResponse("The attribute '${path}' was not found in the config.json")
+        return findNodeValue(jsonNodeConfig, path.split(".")) ?: throw InternalServerErrorResponse()
     }
 }
