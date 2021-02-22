@@ -16,21 +16,21 @@ abstract class DateUtils {
 
         fun createRandomDate(month: Int = getRandomMonth(), year: Int = getRandomYear(), day: Int = getRandomDay(month, year)): Date {
             return Calendar.getInstance().apply {
-                set(year, month, day, getRandomHour(), getRandomMinute(), getRandomSecond())
+                set(year, month-1, day, getRandomHour(), getRandomMinute(), getRandomSecond())
                 set(Calendar.MILLISECOND, 0);
             }.time
         }
 
         fun getFirstMonthMoment(month: Int, year: Int): Date {
             return Calendar.getInstance().apply {
-                set(year, month, 1, 0, 0, 0)
+                set(year, month - 1, 1, 0, 0, 0)
                 set(Calendar.MILLISECOND, 0)
             }.time
         }
 
         fun getLastMonthMoment(month: Int, year: Int): Date {
             return Calendar.getInstance().apply {
-                set(year, month, YearMonth.of(year, month).lengthOfMonth(), 23, 59, 59)
+                set(year, month - 1, YearMonth.of(year, month).lengthOfMonth(), 23, 59, 59)
                 set(Calendar.MILLISECOND, 999)
             }.time
         }

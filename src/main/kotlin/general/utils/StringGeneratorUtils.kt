@@ -11,20 +11,20 @@ abstract class StringGeneratorUtils {
             }
         }
 
-        private val DEFAULT_MIN_MAX_SYLLABLE = MinMaxValues(2, 4)
+        private val DEFAULT_MIN_MAX_SYLLABLE = MinMaxValues(3, 4)
         private val DEFAULT_MIN_MAX_WORD = MinMaxValues(2, 4)
 
         private enum class Vowels { a, e, i, o, u }
         private enum class Consonants { b, c, ç, ch, d, f, g, h, j, k, l, m, n, p, q, qu, r, s, sh, t, v, x, y, w, z }
 
         private val vowelsList by lazy { Vowels.values().map { it.name } }
-        private val ConsonantsList by lazy { Consonants.values().map { it.name } }
+        private val consonantsList by lazy { Consonants.values().map { it.name } }
 
         private fun getRandomLetter(listLetters: List<String>) = listLetters[Random.nextInt(0, listLetters.size)]
 
         private fun getRandomVowel(vararg ignoreVowelList: String) = getRandomLetter(vowelsList.filter { !ignoreVowelList.contains(it) })
 
-        private fun getRandomConsonant() = getRandomLetter(ConsonantsList)
+        private fun getRandomConsonant() = getRandomLetter(consonantsList)
 
         private fun createSyllable(): String {
             val consonant = getRandomConsonant()

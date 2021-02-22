@@ -18,7 +18,7 @@ object TransacaoDaoRandomValues: ITransacaoDao {
         }.toList()
     }
 
-    fun calcValue(id: Int, mes: Int, i: Int): Int {
+    private fun calcValue(id: Int, mes: Int, i: Int): Int {
         val negativeOrPositive = when {
             i % 5 == 0 -> 1
             else -> -1

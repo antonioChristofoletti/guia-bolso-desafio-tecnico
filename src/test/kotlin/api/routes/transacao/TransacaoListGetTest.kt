@@ -80,10 +80,10 @@ class TransacaoListGetTest {
     }
 
     @Test
-    fun `Check size transacoes's descricao, rule, value size lower or equal to 60`() {
+    fun `Check size transacoes's descricao, rule, value higher or equal to 10 and lower or equal to 60`() {
         try {
             getTransacaoList(getRandomUserId(), getRandomYear(), getRandomMonth()).forEach {
-                assert(it.descricao.count() <= 60) {
+                assert(it.descricao.count() in 10..60) {
                     "The Transacao's decricao needs to be lower than 60"
                 }
             }
@@ -96,7 +96,7 @@ class TransacaoListGetTest {
     fun `Check value transacoes's valor, rule, 'valor' higher or equal to -9999999 and lower or equal to 9999999`() {
         try {
             getTransacaoList(getRandomUserId(), getRandomYear(), getRandomMonth()).forEach {
-                assert(it.valor >= -9999999 && it.valor <= 9999999)
+                assert(it.valor in -9999999..9999999)
             }
         } catch (e: Exception) {
             assert(false) { "Unexpected error. Error: ${e.message}" }

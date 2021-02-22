@@ -24,9 +24,9 @@ class JavalinApp {
 }
 
 fun main() {
-    val port: Int? = System.getenv("PORT")?.toIntOrNull()
-    if(port != null) {
-        JavalinApp().start(port)
+    val cloudServerPort: Int? = System.getenv("PORT")?.toIntOrNull()
+    if(cloudServerPort != null) {
+        JavalinApp().start(cloudServerPort)
     } else {
         JavalinApp().start()
     }
