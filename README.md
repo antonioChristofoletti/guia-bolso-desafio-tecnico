@@ -6,6 +6,21 @@ Desafio Técnico do Guia Bolso para avaliar as competências como `DEV Back-End`
 
 Desenvolver um `mock API RESTful` de acordo com algumas regras e premissas.
 
+Contrato: 
+```
+[GET] /<id>/transacoes/<ano>/<mes>
+
+Content-type: application/json
+
+[
+  {
+     "descricao": "string(10, 120)"
+     "data": "long(timestamp)"
+     "valor": "integer(-9.999.999, 9.999.999)"
+  }  
+]
+```
+
 ## Figuras
 
 ![api](https://user-images.githubusercontent.com/31052642/109580024-b39f0580-7ad8-11eb-99a6-db6c55b57737.gif)
