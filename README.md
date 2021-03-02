@@ -25,7 +25,12 @@ Desenvolver um mock API RESTful de acordo com algumas regras e premissas.
 
 ## Funcionalidades
 
-A aplicação é um API mock para 1 end-point em específico.
+A aplicação é um API mock para 1 end-point em específico com vários conteúdos relevantes para mock-server, tais como:
+
+- Geração de texto aleatório;
+- Geração de dados a partir dos URL params;
+- Tratativas de parametros;
+- Testes unitários.
 
 ## Status
 
