@@ -1,11 +1,11 @@
 # Versions README
 
 - ***[English](https://github.com/antonioChristofoletti/guia-bolso-desafio-tecnico/blob/main/readme/readme.en.md)***
-- [Portuguese](https://github.com/antonioChristofoletti/guia-bolso-desafio-tecnico/edit/main/readme/readme.ptbr.md)
+- [Portuguese](https://github.com/antonioChristofoletti/guia-bolso-desafio-tecnico/blob/main/readme/readme.ptbr.md)
 
-# Guia Bolso's Technical Challenger API
+# Guia Bolso's API Technical Challenging
 
-Guia Bolso's Technical Challenger in order to check the abilities and knowlodge related with back-end development.
+Guia Bolso's Technical challenging in order to check the abilities and knowledge related with back-end development.
 
 ## Purpose
 
@@ -47,7 +47,7 @@ Content-type: application/json
 
 ## Features
 
-The applications is an `API mock` with a unique `end-point`, in which It has a lot of contents and importants for this kind of applications, such as:
+The applications is an `API mock` with a unique `end-point`, in which It has contents and importants points related with this kind of applications, such as:
 
 - Random text generator;
 - Data generator through `URL params`;
