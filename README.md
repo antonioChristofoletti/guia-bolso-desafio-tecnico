@@ -1,6 +1,6 @@
 # Guia Bolso Desafio Técnico API
 
-Desafio Técnico do Guia Bolso para avaliar as competências como DEV Back-End.
+Desafio Técnico do Guia Bolso para avaliar as competências como `DEV Back-End`.
 
 ## Objetivo
 
@@ -28,7 +28,7 @@ Desenvolver um `mock API RESTful` de acordo com algumas regras e premissas.
 A aplicação é um `API mock` para 1 único `end-point` em específico com vários conteúdos relevantes para tal tipo de sistema, tais como:
 
 - Geração de texto aleatório;
-- Geração de dados a partir dos URL params;
+- Geração de dados a partir dos `URL params`;
 - Tratativas de parametros;
 - Aplicação autossuficiência sem dependência com bancos de dados;
 - Testes unitários.
