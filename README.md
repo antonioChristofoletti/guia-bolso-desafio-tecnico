@@ -8,6 +8,8 @@ Desenvolver um `mock API RESTful` de acordo com algumas regras e premissas.
 
 ## Figuras
 
+![api](https://user-images.githubusercontent.com/31052642/109580024-b39f0580-7ad8-11eb-99a6-db6c55b57737.gif)
+
 ## Tecnologias Utilizadas
 
 - [Heroku](https://www.heroku.com/)
@@ -29,7 +31,7 @@ A aplicação é um `API mock` para 1 único `end-point` em específico com vár
 
 - Geração de texto aleatório;
 - Geração de dados a partir dos `URL params`;
-- Tratativas de parametros;
+- Tratativas de parâmetros;
 - Aplicação autossuficiência sem dependência com bancos de dados;
 - Testes unitários.
 
