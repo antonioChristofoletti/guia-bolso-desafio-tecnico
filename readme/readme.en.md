@@ -47,7 +47,7 @@ Content-type: application/json
 
 ## Features
 
-The applications is an `API mock` with a unique `end-point`, in which It has contents and importants points related with this kind of applications, such as:
+The applications is an `API mock` with an unique `end-point`, in which It has contents and important points related with this kind of application, such as:
 
 - Random text generator;
 - Data generator through `URL params`;
