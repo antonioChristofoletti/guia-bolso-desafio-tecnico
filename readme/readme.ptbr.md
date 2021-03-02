@@ -1,7 +1,7 @@
 # Versões README
 
 - [Inglês](https://github.com/antonioChristofoletti/guia-bolso-desafio-tecnico/blob/main/readme/readme.en.md)
-- ***[Português](https://github.com/antonioChristofoletti/guia-bolso-desafio-tecnico/edit/blob/readme/readme.ptbr.md)***
+- ***[Português](https://github.com/antonioChristofoletti/guia-bolso-desafio-tecnico/blob/main/readme/readme.ptbr.md)***
 
 # Guia Bolso Desafio Técnico API
 
