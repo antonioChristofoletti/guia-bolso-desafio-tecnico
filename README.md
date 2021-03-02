@@ -4,7 +4,7 @@ Desafio Técnico do Guia Bolso para avaliar as competências como DEV Back-End.
 
 ## Objetivo
 
-Desenvolver um mock API RESTful de acordo com algumas regras e premissas.
+Desenvolver um `mock API RESTful` de acordo com algumas regras e premissas.
 
 ## Figuras
 
@@ -19,17 +19,18 @@ Desenvolver um mock API RESTful de acordo com algumas regras e premissas.
 
 ## Setup
 
-- Executar a aplicacao localmente por meio de uma IDE, basta executar a `fun main` do arquivo `JavalinAppKt`;
-- Por meio do jar gerado através do build `java -jar GuiaBolsoDesafioTecnico.jar`;
-- Obs.: A aplicação foi configurada para ter o deploy no Heruku.
+- Executar a aplicação localmente por meio de uma `IDE`, executar a `fun main` do arquivo `JavalinAppKt`;
+- Por meio do `jar` gerado através do build `java -jar GuiaBolsoDesafioTecnico.jar`;
+- Obs.: A aplicação foi configurada para ter o `deploy` no `Heruku`.
 
 ## Funcionalidades
 
-A aplicação é um API mock para 1 end-point em específico com vários conteúdos relevantes para mock-server, tais como:
+A aplicação é um `API mock` para 1 único `end-point` em específico com vários conteúdos relevantes para tal tipo de sistema, tais como:
 
 - Geração de texto aleatório;
 - Geração de dados a partir dos URL params;
 - Tratativas de parametros;
+- Aplicação autossuficiência sem dependência com bancos de dados;
 - Testes unitários.
 
 ## Status
