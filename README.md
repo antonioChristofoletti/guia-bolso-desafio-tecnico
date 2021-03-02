@@ -1,13 +1,36 @@
 # Guia Bolso Desafio Técnico API
+
 Desafio Técnico do Guia Bolso para avaliar as competências como DEV Back-End.
 
 ## Objetivo
+
 Desenvolver um mock API RESTful de acordo com algumas regras e premissas.
 
-## Stack Utilizada
+## Figuras
+
+## Tecnologias Utilizadas
+
 - [Heroku](https://www.heroku.com/)
 - [Gradle](https://gradle.org/)
 - [Kotlin](https://kotlinlang.org/)
   - [Javalin (API RestFull Frame Work)](https://javalin.io/)
   - [JUnit5](https://junit.org/junit5/)
     - [Ktor as Client HTTP Request](https://ktor.io/)
+
+## Setup
+
+- Executar a aplicacao localmente por meio de uma IDE, basta executar a `fun main` do arquivo `JavalinAppKt`;
+- Por meio do jar gerado através do build `java -jar GuiaBolsoDesafioTecnico.jar`;
+- Obs.: A aplicação foi configurada para ter o deploy no Heruku.
+
+## Funcionalidades
+
+A aplicação é um API mock para 1 end-point em específico.
+
+## Status
+
+Finalizado. Não há indicativos para adequações futuras.
+
+## Contato
+
+[Meu Contato](https://github.com/antonioChristofoletti)
