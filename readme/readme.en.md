@@ -61,4 +61,4 @@ Concluded. There is no indicates for futures developments.
 
 ## Contact
 
-[My contact](https://github.com/antonioChristofoletti)
+Created by [antonioChristofoletti](https://github.com/antonioChristofoletti) - feel free to contact me!
