@@ -61,4 +61,4 @@ Finalizado. Não há indicativos para adequações futuras.
 
 ## Contato
 
-[Meu Contato](https://github.com/antonioChristofoletti)
+Criado por [antonioChristofoletti](https://github.com/antonioChristofoletti) - Sinta-se avontade para entrar em contado comigo!
